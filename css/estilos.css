@@ -112,8 +112,30 @@ footer{
     background-position: center;
 }
 
-.proyectoLila {
-    background-image: url(../img/lilla.jpg);
+.proyectoPsicologa {
+    background-image: url(../img/psicologa.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.btn {
+    background-color: #7AE582;
+    border-radius: 15px;
+    color: black;
+    font-weight: bolder;
+    border: none;
+}
+
+.btn:hover{
+    background-color:#25A18E;
+    color: black;
+}
+
+.card{
+    font-family: 'Roboto Slab', serif;
+}
+
+.titulosCard{
+    color: white;
+    backdrop-filter: blur(15px);
 }
